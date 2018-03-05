@@ -7,10 +7,12 @@ import { DatabindingComponent } from './databinding/databinding.component';
 
 import { FormsModule } from '@angular/forms';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     DatabindingComponent
+    
   ],
   imports: [
     BrowserModule,
