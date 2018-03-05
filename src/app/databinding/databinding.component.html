@@ -1,0 +1,19 @@
+<section class="two-way-binding">
+  <article>
+    <h3>two-way data binding</h3>
+    
+    <input type="text" 
+    [value] = "nome" 
+    (input) = "nome = $event.target.value"
+    />
+    
+ 
+    <h3>Forma Simplificado do two-way-binding</h3>
+    <input type="text" 
+    [(ngModel)]="nome"
+    />
+
+
+
+    <p>Voce digitou: {{ nome}}</p>
+    
