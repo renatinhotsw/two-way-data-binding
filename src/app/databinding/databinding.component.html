@@ -16,4 +16,15 @@
 
 
     <p>Voce digitou: {{ nome}}</p>
+
+
+    <div>
+      <h1>Two-way data-binding with objects</h1>
+      <input type="text" [(ngModel)]="pessoa.nome "/>
+      <input type="text" [(ngModel)]="pessoa.idade "/>
+      <input type="text" [(ngModel)]="pessoa.endereco.rua "/>
+
+      <p>Meu nome é: {{pessoa.nome}} e tenho {{pessoa.idade}} anos de idade.</p>
+
+    </div>
     

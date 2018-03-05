@@ -10,6 +10,16 @@ export class DatabindingComponent implements OnInit {
 
   nome:string = 'abc';
 
+  pessoa: any = {
+    nome:'def',
+    idade:25,
+
+    endereco:{
+      rua:'jose da silva barros',
+      bairro:'centro'
+    }
+  }
+
   constructor() { }
 
   ngOnInit() {
