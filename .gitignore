@@ -44,6 +44,4 @@ testem.log
 Thumbs.db
 
 
-#.js, .json
-*.js
-*.JSON
+
